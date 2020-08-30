@@ -11,5 +11,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val btn = findViewById<Button>(R.id.btn1)
         btn.setOnClickListener { Toast.makeText(applicationContext, "нажали кнопку", Toast.LENGTH_LONG).show() }
+        
     }
 }
